@@ -4,13 +4,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from "react-router-dom";
+import {RoomProvider} from "./context/context";
 
 ReactDOM.render(
-    <React.StrictMode>
+    <RoomProvider>
         <BrowserRouter>
             <App />
         </BrowserRouter>
-    </React.StrictMode>,
+    </RoomProvider>
+   ,
   document.getElementById('root')
 );
 

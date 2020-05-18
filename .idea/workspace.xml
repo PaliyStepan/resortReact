@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Rooms.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589793591429</updated>
       <workItem from="1589793595697" duration="2569000" />
-      <workItem from="1589808592629" duration="7010000" />
+      <workItem from="1589808592629" duration="7932000" />
     </task>
     <task id="LOCAL-00001" summary="add main structure &#10;&#10;*images&#10;*pages folder">
       <created>1589795464653</created>
@@ -102,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589815743178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add banner component">
+      <created>1589816065363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589816065363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
     <MESSAGE value="add main structure &#10;&#10;*images&#10;*pages folder" />
     <MESSAGE value="add routes and nav component" />
     <MESSAGE value="add hero component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hero component" />
+    <MESSAGE value="add banner component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add banner component" />
   </component>
 </project>

@@ -1,11 +1,10 @@
 import React from "react";
+import Hero from "../components/Hero";
 
 const Rooms = () => {
     return (
-        <div>
-            <h2>Rooms</h2>
-        </div>
+        <Hero hero="roomsHero" />
     )
-}
+};
 
 export default  Rooms;

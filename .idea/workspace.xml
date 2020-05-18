@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="add routes &#10;&#10;*images&#10;*pages folder">
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+    <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Rooms.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\palst\Desktop\REACT\resort\src\components" />
       <recent name="C:\Users\palst\Desktop\REACT\resort\src\pages" />
       <recent name="C:\Users\palst\Desktop\REACT\resort\src" />
       <recent name="C:\Users\palst\Desktop\REACT\resort\public" />
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589793591429</updated>
       <workItem from="1589793595697" duration="2569000" />
-      <workItem from="1589808592629" duration="4387000" />
+      <workItem from="1589808592629" duration="6643000" />
     </task>
     <task id="LOCAL-00001" summary="add main structure &#10;&#10;*images&#10;*pages folder">
       <created>1589795464653</created>
@@ -89,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589795464653</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add routes and nav component">
+      <created>1589813437656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589813437656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add main structure &#10;&#10;*images&#10;*pages folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main structure &#10;&#10;*images&#10;*pages folder" />
+    <MESSAGE value="add routes and nav component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add routes and nav component" />
   </component>
 </project>

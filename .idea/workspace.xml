@@ -1,44 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/defaultBcg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/details-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gif/loading-arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gif/loading-gear.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/room-9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Rooms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SingleRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="add routes &#10;&#10;*images&#10;*pages folder">
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,8 +79,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589793591429</updated>
-      <workItem from="1589793595697" duration="1770000" />
+      <workItem from="1589793595697" duration="2569000" />
+      <workItem from="1589808592629" duration="4387000" />
     </task>
+    <task id="LOCAL-00001" summary="add main structure &#10;&#10;*images&#10;*pages folder">
+      <created>1589795464653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589795464653</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,10 +100,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add main structure &#10;&#10;*images&#10;*pages folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add main structure &#10;&#10;*images&#10;*pages folder" />
   </component>
 </project>

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="add prop-types&#10;&#10;*prop-types to Room component&#10;* create getRoom at context.js">
-      <change afterPath="$PROJECT_DIR$/src/components/StyledHero.js" afterDir="false" />
+    <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/RoomsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoomsFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoomsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StyledHero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StyledHero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SingleRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SingleRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <workItem from="1589808592629" duration="12603000" />
       <workItem from="1589824425360" duration="4290000" />
       <workItem from="1589832799040" duration="17000" />
-      <workItem from="1589964840826" duration="5661000" />
+      <workItem from="1589964840826" duration="8947000" />
     </task>
     <task id="LOCAL-00001" summary="add main structure &#10;&#10;*images&#10;*pages folder">
       <created>1589795464653</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589967055658</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add StyledHero comp">
+      <created>1589971127859</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589971127859</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +195,7 @@
     <MESSAGE value="add context" />
     <MESSAGE value="add context state&#10;&#10;*loader component&#10;*room component&#10;*featured rooms" />
     <MESSAGE value="add prop-types&#10;&#10;*prop-types to Room component&#10;* create getRoom at context.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add prop-types&#10;&#10;*prop-types to Room component&#10;* create getRoom at context.js" />
+    <MESSAGE value="add StyledHero comp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add StyledHero comp" />
   </component>
 </project>

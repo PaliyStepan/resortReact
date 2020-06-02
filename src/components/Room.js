@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import PropTypes from "prop-types"
 
 const Room = (props)=> {
-    const { name, slug, images, price } = props.room;
+    const {name,slug,images,price} = props.room;
     return(
         <article className="room">
             <div className="img-container">

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Room.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoomsFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomsFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/context.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,7 +84,7 @@
       <workItem from="1589824425360" duration="4290000" />
       <workItem from="1589832799040" duration="17000" />
       <workItem from="1589964840826" duration="12967000" />
-      <workItem from="1591089681686" duration="1933000" />
+      <workItem from="1591089681686" duration="8079000" />
     </task>
     <task id="LOCAL-00001" summary="add main structure &#10;&#10;*images&#10;*pages folder">
       <created>1589795464653</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589976755294</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add rooms-list component">
+      <created>1591092276918</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591092276918</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +216,7 @@
     <MESSAGE value="add StyledHero comp" />
     <MESSAGE value="add comps&#10;&#10;*RoomsContainer&#10;*RoomsFilter&#10;*RoomsList" />
     <MESSAGE value="refactor roomsContainer" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor roomsContainer" />
+    <MESSAGE value="add rooms-list component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rooms-list component" />
   </component>
 </project>

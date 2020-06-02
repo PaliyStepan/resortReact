@@ -22,7 +22,7 @@ const RoomsFilter = ({rooms}) => {
     });
 
 
-    let  people = getUnique(rooms,'capacity');
+    let people = getUnique(rooms,'capacity');
     people = people.map((item, index)=>{
         return <option key={index} value={item}>{item}</option>
     });
@@ -46,6 +46,22 @@ const RoomsFilter = ({rooms}) => {
                         {people}
                     </select>
                 </div>
+
+                <div className="form-group">
+                    <label htmlFor="price">
+                        room price ${price}
+                    </label>
+                    <input type="range" name="price"
+                           min={minPrice}
+                           max={maxPrice}
+                           id="price"
+                           value={price}
+                           onChange={handleChange}
+                           className="form-control"
+                    />
+
+                </div>
+
             </form>
         </section>
     )

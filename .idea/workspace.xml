@@ -84,7 +84,7 @@
       <workItem from="1589824425360" duration="4290000" />
       <workItem from="1589832799040" duration="17000" />
       <workItem from="1589964840826" duration="12967000" />
-      <workItem from="1591089681686" duration="10380000" />
+      <workItem from="1591089681686" duration="11757000" />
     </task>
     <task id="LOCAL-00001" summary="add main structure &#10;&#10;*images&#10;*pages folder">
       <created>1589795464653</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591107093324</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add room guests select functional">
+      <created>1591110641792</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591110641792</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +232,7 @@
     <MESSAGE value="refactor roomsContainer" />
     <MESSAGE value="add rooms-list component" />
     <MESSAGE value="add room type select functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="add room type select functional" />
+    <MESSAGE value="add room guests select functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="add room guests select functional" />
   </component>
 </project>

@@ -26,8 +26,6 @@ export default class RoomProvider extends Component{
         let featuredRooms = rooms.filter(room => room.featured === true);
         let maxPrice = Math.max(...rooms.map(item=>item.price ));
         let maxSize = Math.max(...rooms.map(item=>item.size ));
-
-
         this.setState({
             rooms: rooms,
             featuredRooms: featuredRooms,
@@ -63,7 +61,7 @@ export default class RoomProvider extends Component{
 
     handleChange = event =>{
         const target = event.target;
-        const value = event.type === "checkbox" ?
+        const value = target.type === "checkbox" ?
             target.checked
             :target.value;
         const name = event.target.name;
@@ -100,7 +98,18 @@ export default class RoomProvider extends Component{
         // filter by price
         tempRooms = tempRooms.filter(room => room.price <= price);
 
+        //filter size room
+        tempRooms = tempRooms.filter(room => room.size >= minSize && room.size <= maxSize);
 
+        //filter by breakfast
+        if (breakfast) {
+            tempRooms = tempRooms.filter(room=> room.breakfast)
+        }
+
+        //filter by pets
+        if (pets) {
+            tempRooms = tempRooms.filter(room=> room.pets)
+        }
 
         this.setState({
             sortedRooms: tempRooms

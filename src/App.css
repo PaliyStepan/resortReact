@@ -461,7 +461,7 @@ h6 {
 /* end of roomlist */
 /*  rooms fitler*/
 .filter-container {
-  padding: 5rem 0;
+  padding: 5rem 0 3rem;
 }
 .filter-form {
   width: 60vw;
@@ -510,4 +510,109 @@ h6 {
     max-width: 1170px;
   }
 }
+
 /* end of rooms fitler*/
+
+
+/*my*/
+
+.room__icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--darkGrey);
+  padding: 8px;
+}
+
+.room__icons p {
+  margin-bottom: 10px;
+}
+
+.room__icons p:last-of-type {
+  margin-bottom: 0;
+}
+.room__icons img {
+  width: 25px;
+}
+
+.single-extra .custom-checkbox {
+  margin-left: 0;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+}
+
+.single-extra .custom-checkbox input {
+  position: absolute;
+  width: 1px;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+
+.single-extra .custom-checkbox input:checked ~ .custom-checkbox__check:before  {
+  opacity: 1;
+}
+
+.custom-checkbox__check {
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  margin-right: 10px;
+  display: block;
+  border: 1px solid #000;
+}
+
+.custom-checkbox__check:before {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  background-image: url("http://www.jtlogistix.com/vendor/images/svg/check%20mark.svg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+  .filter-container {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .logo {
+    display: inline-block;
+    width: 200px;
+  }
+  .logo img {
+    max-width: 100%;
+  }
+  body {
+    padding-top: 58px;
+  }
+
+  .single-room-images {
+    width: 100%;
+    padding: 0 20px;
+    display: block;
+  }
+  .single-room-images img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .room {
+    margin-bottom: 15px;
+  }
+
+  .roomslist {
+    padding: 3rem 0;
+  }
+}
+

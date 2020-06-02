@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="">
+    <list default="true" id="c27fba67-6630-412e-bfe2-05d3f1ab1d7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/check.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoomsFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomsFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -36,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\palst\Desktop\REACT\resort\src\images" />
       <recent name="C:\Users\palst\Desktop\REACT\resort\src\components" />
       <recent name="C:\Users\palst\Desktop\REACT\resort\src\pages" />
       <recent name="C:\Users\palst\Desktop\REACT\resort\src" />
@@ -74,7 +78,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a505cdcf-3cb7-4698-835c-716b7ef89621" name="Default Changelist" comment="" />
+      <changelist id="c27fba67-6630-412e-bfe2-05d3f1ab1d7d" name="Default Changelist" comment="" />
       <created>1589793591429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -84,7 +88,11 @@
       <workItem from="1589824425360" duration="4290000" />
       <workItem from="1589832799040" duration="17000" />
       <workItem from="1589964840826" duration="12967000" />
-      <workItem from="1591089681686" duration="11757000" />
+      <workItem from="1591089681686" duration="15713000" />
+      <workItem from="1591127001713" duration="91000" />
+      <workItem from="1591127551113" duration="163000" />
+      <workItem from="1591289011757" duration="376000" />
+      <workItem from="1591430196729" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="add main structure &#10;&#10;*images&#10;*pages folder">
       <created>1589795464653</created>
@@ -198,7 +206,42 @@
       <option name="project" value="LOCAL" />
       <updated>1591110641792</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add room price range functional">
+      <created>1591112256000</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591112256000</updated>
+    </task>
+    <task id="LOCAL-00018" summary="done">
+      <created>1591116847461</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591116847461</updated>
+    </task>
+    <task id="LOCAL-00019" summary="done">
+      <created>1591289040347</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591289040347</updated>
+    </task>
+    <task id="LOCAL-00020" summary="done">
+      <created>1591290578562</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591290578562</updated>
+    </task>
+    <task id="LOCAL-00021" summary="done">
+      <created>1591291501576</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591291501576</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +275,9 @@
     <MESSAGE value="refactor roomsContainer" />
     <MESSAGE value="add rooms-list component" />
     <MESSAGE value="add room type select functional" />
+    <MESSAGE value="add room price range functional" />
     <MESSAGE value="add room guests select functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="add room guests select functional" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>

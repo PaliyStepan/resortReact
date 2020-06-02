@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import defaultBg from "../images/room-1.jpeg";
-import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import {Link} from "react-router-dom";
 import {RoomContext} from "../context/context";
@@ -29,7 +28,7 @@ class SingleRoom extends Component{
 
         const {name, description, capacity, size, price, extras, breakfast, pets, images } = room;
 
-        const [mainImg, ...defaultImg] = images;
+        const [mainImg, ] = images;
         return (
             <React.Fragment>
                 <StyledHero img={mainImg || this.state.defaultBg}>
